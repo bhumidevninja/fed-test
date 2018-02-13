@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 80px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-header input {
+  color: black;
+}
+
+.App-container {
+  text-align: center;
+  background-color: #ececec;
+  overflow: hidden;
+  height: calc(100vh - 80px);
+}
+
+.col {
+  padding: 10px 25px;
+  border: 1px solid #f00;
+  height: 60px;
+  width: 10%;
+}
+
+.puzzle-container {
+  margin: 20px auto 0;
+  overflow: hidden;
+}
+.puzzle-container .List{
+  overflow: hidden;
+}
+.puzzle-container .List .draggable{
+  float: none!important;
+  display: inline-block;
+}
+
+.grid-item {
+  padding: 16px 10px 10px;
+  border: 1px solid #dadada;
+  height: 54px;
+  width: 54px;
+  margin: 2px;
+  text-align: center;
+  background-color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
